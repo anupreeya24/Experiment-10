@@ -18,5 +18,5 @@
     
     return 0;
     }
-/8value of a is;5
+/*value of a is;5
 value of b is2 */
