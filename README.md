@@ -14,7 +14,7 @@ There are two ways to call a variable to a function for various operations. <br>
 | Used when the function does not need to modify the original data.  | Used when the function needs to modify the original data or when passing large objects.  |
 <br>
 
-\Here’s the algorithm for the code you provided, which demonstrates a swap function that doesn’t modify the original variables:
+
 
 ### Algorithm to Swap Two Integers
 
@@ -25,7 +25,7 @@ There are two ways to call a variable to a function for various operations. <br>
      - Assign the value of `x` to `temp`.
      - Assign the value of `y` to `x`.
      - Assign the value of `temp` to `y`.
-   - Note: This function swaps the values of `x` and `y` locally, but does not affect the original variables.
+   
 
 2. **Main Function**:
    - Initialize two integers `a` and `b` with values (e.g., `5` and `2`).
@@ -34,7 +34,6 @@ There are two ways to call a variable to a function for various operations. <br>
 3. **Display Values**:
    - Print the values of `a` and `b` after the swap function is called.
 
-Here’s the algorithm for the code you provided, which demonstrates how to swap two integers using pointers:
 
 ### Algorithm to Swap Two Integers Using Pointers
 
