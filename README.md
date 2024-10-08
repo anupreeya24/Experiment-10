@@ -13,3 +13,42 @@ There are two ways to call a variable to a function for various operations. <br>
 | More memory is used because a copy of the actual value is made.  | Less memory is used because only the address is passed.  |
 | Used when the function does not need to modify the original data.  | Used when the function needs to modify the original data or when passing large objects.  |
 <br>
+
+\Here’s the algorithm for the code you provided, which demonstrates a swap function that doesn’t modify the original variables:
+
+### Algorithm to Swap Two Integers
+
+1. **Define Swap Function**:
+   - Create a function `swap(int x, int y)` that takes two integers as parameters.
+   - Inside the function:
+     - Declare a temporary integer `temp`.
+     - Assign the value of `x` to `temp`.
+     - Assign the value of `y` to `x`.
+     - Assign the value of `temp` to `y`.
+   - Note: This function swaps the values of `x` and `y` locally, but does not affect the original variables.
+
+2. **Main Function**:
+   - Initialize two integers `a` and `b` with values (e.g., `5` and `2`).
+   - Call the `swap` function with `a` and `b` as arguments.
+
+3. **Display Values**:
+   - Print the values of `a` and `b` after the swap function is called.
+
+Here’s the algorithm for the code you provided, which demonstrates how to swap two integers using pointers:
+
+### Algorithm to Swap Two Integers Using Pointers
+
+1. **Define Swap Function**:
+   - Create a function `swap(int *x, int *y)` that takes two integer pointers as parameters.
+   - Inside the function:
+     - Declare a temporary integer `temp`.
+     - Assign the value pointed to by `x` to `temp` (`temp = *x`).
+     - Assign the value pointed to by `y` to the location pointed to by `x` (`*x = *y`).
+     - Assign the value in `temp` to the location pointed to by `y` (`*y = temp`).
+
+2. **Main Function**:
+   - Initialize two integers `a` and `b` with values (e.g., `5` and `2`).
+   - Call the `swap` function with the addresses of `a` and `b` (`swap(&a, &b)`).
+
+3. **Display Values**:
+   - Print the values of `a` and `b` after the swap function is called.
